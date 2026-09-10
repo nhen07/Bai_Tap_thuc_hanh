@@ -1,6 +1,4 @@
-tr.header{
-    background-color:green;
-}
+
 h3{
     color:green;
     font-size: 25px;
@@ -15,21 +13,23 @@ th, td{
     border: 1px solid #999;
     padding: 8px 12px;
 }
-thead th{
-    color: blue;
-    font-size: 25px;
+.header th{
+    color: black ;
+    background-color: antiquewhite;
+    font-size: 20px;
 }
-tbody td{
+td{
     font-size: 14px;
 }
-tbody tr:nth-child(1){background-color: #f2f2f2;
+tr:nth-child(2){
+    color:red;
 }
-tbody tr:nth-child(2){background-color: red;
+tr:nth-child(3){
+    color: red;
 }
-tbody tr:nth-child(3){background-color: yellow;
+tr:nth-child(4){
+    color: red;
 }
-tbody tr:nth-child(4){background-color: pink;
-}
-tbody tr:hover{
-    background-color: #cccccc;
+tr:hover{
+    color: #cccccc;
 }

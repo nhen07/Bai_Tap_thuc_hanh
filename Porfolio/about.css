@@ -1,0 +1,25 @@
+.about-content {
+    display: flex;
+    justify-content: center;
+}
+
+.about-text {
+    max-width: 700px;
+}
+
+.about-text h3 {
+    font-size: 22px;
+    color: orange;
+    margin-bottom: 10px;
+}
+
+.about-text p {
+    font-size: 16px;
+    color: gray;
+    margin-bottom: 20px;
+}
+
+.about-info li {
+    font-size: 16px;
+    margin-bottom: 10px;
+}

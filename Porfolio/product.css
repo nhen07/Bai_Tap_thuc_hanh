@@ -1,0 +1,9 @@
+.product-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+.product-box h3 {
+    font-size: 18px;
+    margin: 12px 0 8px;
+}
